@@ -1,0 +1,29 @@
+{
+    "name": "backend-template",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "prisma:push": "prisma db push",
+        "prisma:generate": "prisma generate"
+    },
+    "author": "Julien Burger",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "nodemon": "^3.1.10",
+        "prisma": "^6.11.1"
+    },
+    "dependencies": {
+        "@prisma/client": "^6.11.1",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.0",
+        "express": "^5.1.0",
+        "express-rate-limit": "^7.5.1",
+        "helmet": "^8.1.0",
+        "module-alias": "^2.2.3",
+        "morgan": "^1.10.0",
+        "mysql2": "^3.14.2"
+    }
+}
