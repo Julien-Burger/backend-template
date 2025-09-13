@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@controllers/*": ["controllers/*"],
+            "@routes": ["routes"],
+            "@routes/*": ["routes/*"],
+            "@middlewares": ["middlewares"],
+            "@middlewares/*": ["middlewares/*"],
+            "@config/*": ["config/*"]
+        }
+    },
+    "include": ["./**/*"]
+}
